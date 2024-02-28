@@ -15,4 +15,4 @@ phases:
   build:
     commands:
       - echo "Terraform Destroy"
-      - terraform destroy -auto-approve --force\\\
+      - terraform destroy -auto-approve --force
