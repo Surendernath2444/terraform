@@ -13,4 +13,13 @@ provider "aws" {
   access_key = "AKIATCKARQYVEN5V2KPJ"
   secret_key = "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"
 }
-
+ 
+resource "aws_s3_bucket" "bucket" {
+  bucket = "sujdhdsidhsh"
+ 
+  tags = {
+    Name        = "My bucket"
+    Environment = "Dev"
+  }
+}
+}
