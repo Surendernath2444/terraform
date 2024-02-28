@@ -14,5 +14,5 @@ phases:
       - terraform init
   build:
     commands:
-      - echo "Terraform Apply"
+      - echo "Terraform Destroy"
       - terraform destroy -auto-approve
