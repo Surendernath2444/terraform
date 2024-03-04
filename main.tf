@@ -10,8 +10,8 @@ terraform {
 # Define AWS provider
 provider "aws" {
   region     = "us-east-2"
-  access_key = "AKIATCKARQYVEN5V2KPJ"
-  secret_key = "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"
+  access_key = "AKIATCKARQYVKSEKBBMW"
+  secret_key = "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"
 }
  
 resource "aws_s3_bucket" "bucket" {
