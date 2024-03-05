@@ -15,4 +15,4 @@ phases:
   build:
     commands:
       - echo "Terraform Apply"
-      - terraform apply -auto-approve
+      - terraform apply --auto-approve
