@@ -14,8 +14,8 @@ provider "aws" {
   secret_key = "ENnZ5djxuSrs/lYXnVnFdAGjO5YRV5P7PpmEHS7K"
 }
  
-resource "aws_s3_bucket" "bucket1" {
-  bucket = "sujdhdsidhsthy"
+resource "aws_s3_bucket" "bucket" {
+  bucket = "sujdhdsidhslkthy"
  
   tags = {
     Name        = "My bucket"
