@@ -1,7 +1,7 @@
 # Configure Terraform to use S3 as the backend
 terraform {
   backend "s3" {
-    bucket = "testterraformcod"
+    bucket = "testterraformcod1"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
